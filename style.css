@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#resistor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.side,
+.center {
+  background-color: rgb(190, 173, 147);
+}
+
+.side {
+  width: 100px;
+  height: 100px;
+  border-radius: 45%;
+}
+
+.center {
+  display: flex;
+  width: 160px;
+  height: 85px;
+  margin: 0 -20px;
+}
+
+.strip {
+  width: 20px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.center .strip {
+  margin-left: 17px;
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+  display:block;
+  max-width: 50px;
+}
+
+.side .strip {
+  margin: 0 auto;
+}
