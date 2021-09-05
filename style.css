@@ -33,17 +33,15 @@
   width: 20px;
   height: 100%;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.strip:hover {
+    width: 30px;
 }
 
 .center .strip {
   margin-left: 17px;
-  background-color: blue;
-}
-
-.red {
-  background-color: red;
-  display:block;
-  max-width: 50px;
 }
 
 .side .strip {
