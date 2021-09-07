@@ -2,6 +2,51 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+#result-display p {
+  line-height: 60px;
+}
+
+#result-display {
+    text-align: center;
+    font-size: 50px;
+}
+
+.yellow {
+    background-color: yellow;
+    padding:5px
+}
+
+.green {
+    background-color: green;
+}
+
+#fourth-strip {
+  display: none;
+}
+
+.calc-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(28, 87, 72);
+  color: white;
+  transition: 0.2s;
+}
+
+.calc-btn:hover {
+  background-color: rgb(35, 119, 119);
+}
+
+.show {
+  display:block
 }
 
 #resistor {
@@ -37,7 +82,7 @@
 }
 
 .strip:hover {
-    width: 30px;
+  width: 30px;
 }
 
 .center .strip {

@@ -13,17 +13,19 @@
   <body>
     <div id="resistor">
       <div id="left" class="side">
-        <div class="strip"></div>
+        <div id="first-strip" class="strip number"></div>
       </div>
       <div class="center">
-        <div class="strip"></div>
-        <div class="strip"></div>
-        <div class="strip"></div>
+        <div id="second-strip" class="strip number"></div>
+        <div id="third-strip" class="strip multiplier"></div>
+        <div id="fourth-strip" class="strip"></div>
       </div>
       <div id="right" class="side">
-        <div class="strip"></div>
+        <div id="fift-strip" class="strip tolerance"></div>
       </div>
     </div>
+    <div id="result-display"></div>
+    <button class="calc-btn" id="calc-btn">Calcular</button>
     <script src="jquery-3.6.0.min.js"></script>
     <script
       src="Flat-HTML5-Palette-Color-Picker-For-jQuery-colorPick-js/src/colorPick.min.js"></script>
