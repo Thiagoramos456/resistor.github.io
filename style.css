@@ -28,9 +28,25 @@
   display: none;
 }
 
+.wire {
+  background-color: rgba(83, 81, 81, 0.575);
+  width:200px;
+  height: 5px;
+}
+
+h1 {
+  border: 1px solid black;
+  width: fit-content;
+  margin: 70px auto;
+  padding: 30px;
+  background-color:darkgreen;
+  color: white;
+  border-radius: 30px
+}
+
 .calc-btn {
   display: block;
-  margin: 10px auto;
+  margin: 50px auto;
   padding: 5px 20px;
   border: 1px solid black;
   border-radius: 5px;
@@ -53,7 +69,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .side,
