@@ -16,3 +16,5 @@ Se você inserir as cores: vermelho, violeta, marrom e dourado, você obterá o 
 
 - Valor: 270 Ω
 - Tolerância: ±5%
+
+### [Clique aqui para acessar a aplicação](https://resistorcalculator-62ww5be90-thiagoramos456.vercel.app/).
